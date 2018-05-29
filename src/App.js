@@ -79,8 +79,12 @@ class App extends Component {
       return (
       <div className="container" style={containerStyle}>
         <div className="row">
-                {cards}
+            <div className="col-sm">
+                <h1>Avgångar från Helsingborg C</h1>
+            </div>
+
         </div>
+          <div className="row">{cards}</div>
       </div>
     );
   }
